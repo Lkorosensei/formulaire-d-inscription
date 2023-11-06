@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+header {
+  background-color: #C2BFBF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header h2:first-child {
+  font-size: 30px;
+}
+header p {
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+
+main h1 {
+  color: #8B0000;
+  font-size: 40px;
+  margin: 1%;
+  text-align: center;
+}
+main form {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40%;
+}
+main form fieldset {
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main form fieldset div {
+  margin: 1%;
+}
+main form .test {
+  margin: 25%;
+  padding: 15%;
+}
+
+footer {
+  background-color: #C2BFBF;
+  color: #EB2A14;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

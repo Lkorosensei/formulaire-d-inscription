@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./assets/js/script.js" defer></script>
+    <title>Formulaire d'abonnement</title>
+</head>
+<body>
+    <header>
+        <h2>Code of the Day</h2>
+        <h2>Le quotidien des développeurs en herbe !</h2>
+        <p>Bienvenue sur le portail d'inscription à notre liste d'abonnement</p>
+        <p>Ici vous pourrez demander à ce que votre journal préféré vous soit livré chaque jour</p>
+        <p>Dès que nos équipes recevront votre demande, vous serez contacter par courrier éléctronique</p>
+    </header>
+
+    <main>
+        <h1>Formulaire d'inscription</h1>
+        <!-- Formulaire pour l'identité -->
+        <form action="">
+            <fieldset>
+                <legend>Identité</legend>
+                <div>
+                    <input type="radio" name="sexe" id="monsieur">
+                    <label for="monsieur">Monsieur</label>
+
+                    <input type="radio" name="sexe" id="madame">
+                    <label for="madame">Madame</label>
+                </div>
+                
+                <div>
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" placeholder="Exemple : Belkacem" size="25">
+                </div>
+
+                <div>
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Exemple : Djamel" size="25">
+                </div>
+                <div>
+                    <label for="email">E-mail : </label>
+                    <input type="email" name="email" id="email" placeholder="Exemple : djam@gmail.fr" size="25">
+                </div>
+            </fieldset>
+
+            <!-- Formulaire pour l'adresse de facturation -->
+            <fieldset>
+                <legend>Adresse de facturation</legend>
+
+                <div>
+                    <label for="rue">Rue : </label>
+                    <input type="text" name="rue" id="rue" placeholder="Exemple : 1 place du Vieux port" size="25">
+                </div>
+
+                <div>
+                    <label for="ville">Ville : </label>
+                    <input type="text" name="ville" id="ville" placeholder="Exemple : Marseille" size="25">
+                </div>
+                <div>
+                    <label for="codepostal">Code Postal : </label>
+                    <input type="text" name="codepostal" id="codepostal" placeholder="Exemple : 13013" size="25">
+                </div>
+            </fieldset>
+
+            <!-- Formulaire pour l'adresse de livraison -->
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+
+                <div>
+                    <label for="rue">Rue : </label>
+                    <input type="text" name="rue" id="rue" placeholder="Exemple : 1 place du Vieux port" size="25">
+                </div>
+
+                <div>
+                    <label for="ville">Ville : </label>
+                    <input type="text" name="ville" id="ville" placeholder="Exemple : Marseille" size="25">
+                </div>
+
+                <div>
+                    <label for="codepostal">Code Postal : </label>
+                    <input type="text" name="codepostal" id="codepostal" placeholder="Exemple : 13013" size="25">
+                </div>
+            </fieldset>
+
+            <div>
+                <button class="test" type="submit">Valider</button>
+            </div>
+    </form>
+
+    </main>
+
+    <footer>
+        <p>Samir IBRAHIM - &copy;Code of the day - 2023</p>
+    </footer>
+</body>
+</html>
